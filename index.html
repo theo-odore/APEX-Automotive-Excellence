@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APEX - Automotive Excellence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div id="loader-logo">APEX</div>
+    <div id="loader-bar-wrap">
+      <div id="loader-bar"></div>
+    </div>
+    <div id="loader-pct">0%</div>
+  </div>
+
+  <!-- SCENE -->
+  <div id="scene">
+    <div id="bg-track">
+      <div class="bg-slide" id="bg-a"></div>
+      <div class="bg-slide" id="bg-b"></div>
+    </div>
+    <div id="color-tint"></div>
+    <div id="vignette"></div>
+    <div id="grain"></div>
+  </div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-logo">AP<span id="nav-accent-x">E</span>X</div>
+    <ul class="nav-links">
+      <li><a href="#">Models</a></li>
+      <li><a href="#">Performance</a></li>
+      <li><a href="#">Heritage</a></li>
+      <li><a href="#">Configure</a></li>
+    </ul>
+    <div class="nav-right" id="nav-time">00.00.00</div>
+  </nav>
+
+  <!-- CORNER BRACKETS -->
+  <div class="corner-bracket" id="cb-tl"></div>
+  <div class="corner-bracket" id="cb-tr"></div>
+  <div class="corner-bracket" id="cb-bl"></div>
+  <div class="corner-bracket" id="cb-br"></div>
+
+  <!-- CONTENT PANEL -->
+  <div id="content-panel">
+
+    <!-- BOTTOM LEFT -->
+    <div id="bottom-left">
+      <div class="slide-content-inner" id="content-inner">
+        <div class="badge">
+          <div class="badge-dot" id="badge-dot"></div>
+          <span class="badge-text" id="badge-text">NOW AVAILABLE</span>
+        </div>
+        <div class="headline">
+          <span class="hl-solid" id="hl-solid">PHANTOM</span>
+          <span class="hl-outline" id="hl-outline">GT COUPE</span>
+          <span class="hl-gradient" id="hl-gradient">2025</span>
+        </div>
+        <p class="subtitle" id="subtitle">
+          Raw power. Surgical precision. An icon reborn for those who demand more than the road can offer.
+        </p>
+        <div class="cta-row">
+          <button class="btn-primary" id="btn-primary">Configure Yours</button>
+          <button class="btn-secondary">Explore Model</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOTTOM RIGHT -->
+    <div id="bottom-right">
+      <div class="stats-card" id="stats-card">
+        <div class="stats-card-label" id="stats-card-label">Performance Specs</div>
+        <div id="stats-rows"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- SLIDE COUNTER -->
+  <div id="slide-counter">
+    <div class="counter-num" id="ctr-cur">01</div>
+    <div class="counter-sep"></div>
+    <div class="counter-total" id="ctr-tot">04</div>
+    <div class="dot-nav" id="dot-nav"></div>
+  </div>
+
+  <!-- TICKER -->
+  <div id="ticker-wrap">
+    <div class="ticker-label" id="ticker-label">APEX MOTORS</div>
+    <div class="ticker-inner">
+      <div class="ticker-track" id="ticker-track"></div>
+    </div>
+  </div>
+
+  <!-- TRANSITION LINE -->
+  <div id="trans-line"></div>
+
+  <!-- SWIPE HINT -->
+  <div id="swipe-hint">Scroll or swipe to explore</div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
