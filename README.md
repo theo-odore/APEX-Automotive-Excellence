@@ -2,6 +2,8 @@
 
 APEX is a premium, high-performance automotive showcase designed with a dark, minimalist aesthetic and fluid animations. It features a dynamic car selection experience with immersive parallax backgrounds and custom performance stats.
 
+🔗 **[View Live Demo](https://theo-odore.github.io/APEX-Automotive-Excellence/)**
+
 ![APEX Showcase](https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=1200&q=80&auto=format&fit=crop)
 
 ## ✨ Features
