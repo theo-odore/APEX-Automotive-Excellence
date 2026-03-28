@@ -1,4 +1,4 @@
-# APEX — Automotive Excellence 🏎️
+# APEX - Automotive Excellence 🏎️
 
 APEX is a premium, high-performance automotive showcase designed with a dark, minimalist aesthetic and fluid animations. It features a dynamic car selection experience with immersive parallax backgrounds and custom performance stats.
 
